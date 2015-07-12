@@ -34,9 +34,8 @@ public void run(){init();long lastTime = System.nanoTime();final double amountOf
 
 public Class1(){v=new Vars();	
 c=new Control(v,this);
-g=new Game(v,c,this);
-	km=new keymou(v,this,c);
-	 	 addKeyListener(km);addMouseListener(km);
+g=new Game(v,c,this);km=new keymou(v,this,c);
+addKeyListener(km);addMouseListener(km);
 	}
 
 

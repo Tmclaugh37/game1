@@ -15,7 +15,7 @@ double ID[]={0,0,100};
 	}
 	@Override
 	public void render(Graphics g) {
-		g.setColor(Color.ORANGE);
+		g.setColor(Color.BLUE);
 		g.fillOval((int)ID[0], (int)ID[1], 10, 10);
 	}
 }
